@@ -1,0 +1,1586 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poly:ital,wght@0,400;1,400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="frame12-container">
+        <div class="frame12-frame12">
+          <img
+            src="public/external/rectangle81518-ow4f-3000h.png"
+            alt="Rectangle81518"
+            class="frame12-rectangle8"
+          />
+          <div class="frame12-group3">
+            <img
+              src="public/external/rectangle61522-e7yej-200h.png"
+              alt="Rectangle61522"
+              class="frame12-rectangle6"
+            />
+            <span class="frame12-text"><span>PRODUCT CATEGORY</span></span>
+          </div>
+          <div class="frame12-group4">
+            <div class="frame12-component1">
+              <div class="frame12-produkcategory">
+                <img
+                  src="public/external/rectangle7i158-q8vd-200w.png"
+                  alt="Rectangle7I158"
+                  class="frame12-rectangle7"
+                />
+                <img
+                  src="public/external/ellipse5i158-sfi-200w.png"
+                  alt="Ellipse5I158"
+                  class="frame12-ellipse5"
+                />
+                <img
+                  src="public/external/image1i158-miba-200h.png"
+                  alt="image1I158"
+                  class="frame12-image1"
+                />
+                <div class="frame12-frame9">
+                  <span class="frame12-text002"><span>elektronik</span></span>
+                </div>
+              </div>
+              <div class="frame12-produkcategory01">
+                <img
+                  src="public/external/rectangle7i158-luy-200w.png"
+                  alt="Rectangle7I158"
+                  class="frame12-rectangle701"
+                />
+                <img
+                  src="public/external/ellipse5i158-a7wn-200w.png"
+                  alt="Ellipse5I158"
+                  class="frame12-ellipse501"
+                />
+                <img
+                  src="public/external/image1i158-swy-200h.png"
+                  alt="image1I158"
+                  class="frame12-image101"
+                />
+                <div class="frame12-frame901">
+                  <span class="frame12-text004"><span>elektronik</span></span>
+                </div>
+              </div>
+            </div>
+            <div class="frame12-component2">
+              <div class="frame12-produkcategory02">
+                <img
+                  src="public/external/rectangle7i151-9tq-200w.png"
+                  alt="Rectangle7I151"
+                  class="frame12-rectangle702"
+                />
+                <img
+                  src="public/external/ellipse5i151-evy-200w.png"
+                  alt="Ellipse5I151"
+                  class="frame12-ellipse502"
+                />
+                <img
+                  src="public/external/image1i151-se8k-200h.png"
+                  alt="image1I151"
+                  class="frame12-image102"
+                />
+                <div class="frame12-frame902">
+                  <span class="frame12-text006"><span>elektronik</span></span>
+                </div>
+              </div>
+              <div class="frame12-produkcategory03">
+                <img
+                  src="public/external/rectangle7i151-4n5r-200w.png"
+                  alt="Rectangle7I151"
+                  class="frame12-rectangle703"
+                />
+                <img
+                  src="public/external/ellipse5i151-t3ri-200w.png"
+                  alt="Ellipse5I151"
+                  class="frame12-ellipse503"
+                />
+                <img
+                  src="public/external/image1i151-vz-200h.png"
+                  alt="image1I151"
+                  class="frame12-image103"
+                />
+                <div class="frame12-frame903">
+                  <span class="frame12-text008">
+                    <span>kebutuhan bayi</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="frame12-component3">
+              <div class="frame12-produkcategory04">
+                <img
+                  src="public/external/rectangle7i151-ly6-200w.png"
+                  alt="Rectangle7I151"
+                  class="frame12-rectangle704"
+                />
+                <img
+                  src="public/external/ellipse5i151-3k1-200w.png"
+                  alt="Ellipse5I151"
+                  class="frame12-ellipse504"
+                />
+                <img
+                  src="public/external/image1i151-zm2p-200h.png"
+                  alt="image1I151"
+                  class="frame12-image104"
+                />
+                <div class="frame12-frame904">
+                  <span class="frame12-text010"><span>elektronik</span></span>
+                </div>
+              </div>
+              <div class="frame12-produkcategory05">
+                <img
+                  src="public/external/rectangle7i151-4d1e-200w.png"
+                  alt="Rectangle7I151"
+                  class="frame12-rectangle705"
+                />
+                <img
+                  src="public/external/ellipse5i151-d3zi-200w.png"
+                  alt="Ellipse5I151"
+                  class="frame12-ellipse505"
+                />
+                <img
+                  src="public/external/image1i151-93e-200h.png"
+                  alt="image1I151"
+                  class="frame12-image105"
+                />
+                <div class="frame12-frame905">
+                  <span class="frame12-text012">
+                    <span>bahan makanan</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="frame12-component4">
+              <div class="frame12-produkcategory06">
+                <img
+                  src="public/external/rectangle7i151-giqq-200w.png"
+                  alt="Rectangle7I151"
+                  class="frame12-rectangle706"
+                />
+                <img
+                  src="public/external/ellipse5i151-mre7s-200w.png"
+                  alt="Ellipse5I151"
+                  class="frame12-ellipse506"
+                />
+                <img
+                  src="public/external/image1i151-x15i-200h.png"
+                  alt="image1I151"
+                  class="frame12-image106"
+                />
+                <div class="frame12-frame906">
+                  <span class="frame12-text014"><span>elektronik</span></span>
+                </div>
+              </div>
+              <div class="frame12-produkcategory07">
+                <img
+                  src="public/external/rectangle7i151-xf2d-200w.png"
+                  alt="Rectangle7I151"
+                  class="frame12-rectangle707"
+                />
+                <img
+                  src="public/external/ellipse5i151-mgts-200w.png"
+                  alt="Ellipse5I151"
+                  class="frame12-ellipse507"
+                />
+                <img
+                  src="public/external/image1i151-tfm-200h.png"
+                  alt="image1I151"
+                  class="frame12-image107"
+                />
+                <div class="frame12-frame907">
+                  <span class="frame12-text016"><span>snack</span></span>
+                </div>
+              </div>
+            </div>
+            <div class="frame12-component5">
+              <div class="frame12-produkcategory08">
+                <img
+                  src="public/external/rectangle7i151-bzu8-200w.png"
+                  alt="Rectangle7I151"
+                  class="frame12-rectangle708"
+                />
+                <img
+                  src="public/external/ellipse5i151-rolj-200w.png"
+                  alt="Ellipse5I151"
+                  class="frame12-ellipse508"
+                />
+                <img
+                  src="public/external/image1i151-1pji-200h.png"
+                  alt="image1I151"
+                  class="frame12-image108"
+                />
+                <div class="frame12-frame908">
+                  <span class="frame12-text018"><span>elektronik</span></span>
+                </div>
+              </div>
+              <div class="frame12-produkcategory09">
+                <img
+                  src="public/external/rectangle7i151-lyo-200w.png"
+                  alt="Rectangle7I151"
+                  class="frame12-rectangle709"
+                />
+                <img
+                  src="public/external/ellipse5i151-skl-200w.png"
+                  alt="Ellipse5I151"
+                  class="frame12-ellipse509"
+                />
+                <img
+                  src="public/external/image1i151-i8ple-200h.png"
+                  alt="image1I151"
+                  class="frame12-image109"
+                />
+                <div class="frame12-frame909">
+                  <span class="frame12-text020">
+                    <span>perlatan dapur</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame12-group2">
+            <img
+              src="public/external/rectangle41111-m552.svg"
+              alt="Rectangle41111"
+              class="frame12-rectangle4"
+            />
+            <img
+              src="public/external/rectangle51112-4mgf.svg"
+              alt="Rectangle51112"
+              class="frame12-rectangle5"
+            />
+            <img
+              src="public/external/iphoneremovebgpreview11123-bnq6-300w.png"
+              alt="iphoneremovebgpreview11123"
+              class="frame12-iphoneremovebgpreview1"
+            />
+            <img
+              src="public/external/elektronikremovebgpreview11122-o2fe-300w.png"
+              alt="elektronikremovebgpreview11122"
+              class="frame12-elektronikremovebgpreview1"
+            />
+            <span class="frame12-text022">
+              <span>
+                <span>ELEKTRONIC DAY</span>
+                <br />
+                <span>DAPATKAN DISKON MENARIK</span>
+              </span>
+            </span>
+            <div class="frame12-frame8">
+              <span class="frame12-text027"><span>diskon spesial</span></span>
+            </div>
+            <img
+              src="public/external/arrowrightcirclefill21245-iozg.svg"
+              alt="arrowrightcirclefill21245"
+              class="frame12-arrowrightcirclefill2"
+            />
+          </div>
+          <div class="frame12-frame5">
+            <span class="frame12-text029"><span>Danistore</span></span>
+            <span class="frame12-text031">
+              <span>home category product</span>
+            </span>
+            <div class="frame12-group1">
+              <img
+                src="public/external/vector543-dq6f.svg"
+                alt="Vector543"
+                class="frame12-vector"
+              />
+              <img
+                src="public/external/vector542-xcfm.svg"
+                alt="Vector542"
+                class="frame12-vector1"
+              />
+              <img
+                src="public/external/ellipse4544-mucf-200h.png"
+                alt="Ellipse4544"
+                class="frame12-ellipse4"
+              />
+            </div>
+            <div class="frame12-frame7">
+              <div class="frame12-tobol">
+                <span class="frame12-text033"><span>sign in</span></span>
+              </div>
+              <div class="frame12-tobol1">
+                <span class="frame12-text035"><span>log in</span></span>
+              </div>
+            </div>
+          </div>
+          <span class="frame12-text037"><span>All Product</span></span>
+          <div class="frame12-katalog">
+            <img
+              src="public/external/rectangle10i793-6aj3-300h.png"
+              alt="Rectangle10I793"
+              class="frame12-rectangle10"
+            />
+            <div class="frame12-frame20">
+              <div class="frame12-frame19">
+                <div class="frame12-frame18">
+                  <span class="frame12-text039">
+                    <span>Perlengkapan bayi</span>
+                  </span>
+                  <span class="frame12-text041"><span>Popok bayi</span></span>
+                </div>
+                <span class="frame12-text043">
+                  <span>
+                    Popok bayi dengan kelembutan ekstra, memiliki banyak size...
+                  </span>
+                </span>
+              </div>
+              <div class="frame12-frame17">
+                <span class="frame12-text045"><span>RP. 89.000</span></span>
+                <div class="frame12-frame16">
+                  <span class="frame12-text047"><span>Beli</span></span>
+                  <img
+                    src="public/external/backpack41i793-fnq5.svg"
+                    alt="backpack41I793"
+                    class="frame12-backpack41"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame12-katalog01">
+            <img
+              src="public/external/rectangle10i301-hg3i-300h.png"
+              alt="Rectangle10I301"
+              class="frame12-rectangle1001"
+            />
+            <div class="frame12-frame2001">
+              <div class="frame12-frame1901">
+                <div class="frame12-frame1801">
+                  <span class="frame12-text049">
+                    <span>Perlengkapan bayi</span>
+                  </span>
+                  <span class="frame12-text051"><span>Minyak telon</span></span>
+                </div>
+                <span class="frame12-text053">
+                  <span>
+                    perlindungan lebih lama terhadap serangga selama 12 jam.
+                    memberi rasa nyaman...
+                  </span>
+                </span>
+              </div>
+              <div class="frame12-frame1701">
+                <span class="frame12-text055"><span>RP. 17.000</span></span>
+                <div class="frame12-frame1601">
+                  <span class="frame12-text057"><span>Beli</span></span>
+                  <img
+                    src="public/external/backpack41i301-ypti.svg"
+                    alt="backpack41I301"
+                    class="frame12-backpack4101"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame12-katalog02">
+            <img
+              src="public/external/rectangle10i301-4rg-300h.png"
+              alt="Rectangle10I301"
+              class="frame12-rectangle1002"
+            />
+            <div class="frame12-frame2002">
+              <div class="frame12-frame1902">
+                <div class="frame12-frame1802">
+                  <span class="frame12-text059">
+                    <span>Perlengkapan bayi</span>
+                  </span>
+                  <span class="frame12-text061"><span>Susu bayi</span></span>
+                </div>
+                <span class="frame12-text063">
+                  <span>
+                    daya hisap tetap kuat meski saat battery low, porteble
+                    sehingga lebih nyaman di gunakan
+                  </span>
+                </span>
+              </div>
+              <div class="frame12-frame1702">
+                <span class="frame12-text065"><span>RP. 695.000</span></span>
+                <div class="frame12-frame1602">
+                  <span class="frame12-text067"><span>Beli</span></span>
+                  <img
+                    src="public/external/backpack41i301-ia5f.svg"
+                    alt="backpack41I301"
+                    class="frame12-backpack4102"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame12-katalog03">
+            <img
+              src="public/external/rectangle10i301-gna-300h.png"
+              alt="Rectangle10I301"
+              class="frame12-rectangle1003"
+            />
+            <div class="frame12-frame2003">
+              <div class="frame12-frame1903">
+                <div class="frame12-frame1803">
+                  <span class="frame12-text069">
+                    <span>Perlengkapan bayi</span>
+                  </span>
+                  <span class="frame12-text071"><span>Bedak bayi</span></span>
+                </div>
+                <span class="frame12-text073">
+                  <span>
+                    Cara mendeskripsikan produk makanan harus memuat beberapa
+                    poin utama...
+                  </span>
+                </span>
+              </div>
+              <div class="frame12-frame1703">
+                <span class="frame12-text075"><span>RP. 20.000</span></span>
+                <div class="frame12-frame1603">
+                  <span class="frame12-text077"><span>Beli</span></span>
+                  <img
+                    src="public/external/backpack41i301-zc07.svg"
+                    alt="backpack41I301"
+                    class="frame12-backpack4103"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame12-katalog04">
+            <img
+              src="public/external/rectangle10i302-nhjl-300h.png"
+              alt="Rectangle10I302"
+              class="frame12-rectangle1004"
+            />
+            <div class="frame12-frame2004">
+              <div class="frame12-frame1904">
+                <div class="frame12-frame1804">
+                  <span class="frame12-text079"><span>snack</span></span>
+                  <span class="frame12-text081"><span>Gery coklat</span></span>
+                </div>
+                <span class="frame12-text083">
+                  <span>
+                    tersedia lebih ukuran lebih besar dan rasa coklat yang lebih
+                    padat...
+                  </span>
+                </span>
+              </div>
+              <div class="frame12-frame1704">
+                <span class="frame12-text085"><span>RP. 5.000</span></span>
+                <div class="frame12-frame1604">
+                  <span class="frame12-text087"><span>Beli</span></span>
+                  <img
+                    src="public/external/backpack41i302-abrv.svg"
+                    alt="backpack41I302"
+                    class="frame12-backpack4104"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame12-katalog05">
+            <img
+              src="public/external/rectangle10i302-s25v-300h.png"
+              alt="Rectangle10I302"
+              class="frame12-rectangle1005"
+            />
+            <div class="frame12-frame2005">
+              <div class="frame12-frame1905">
+                <div class="frame12-frame1805">
+                  <span class="frame12-text089"><span>snack</span></span>
+                  <span class="frame12-text091"><span>Teh javana</span></span>
+                </div>
+                <span class="frame12-text093">
+                  <span>
+                    terbuat dari pucuk teh terbaik, menggunakan aroma recovery
+                    system...
+                  </span>
+                </span>
+              </div>
+              <div class="frame12-frame1705">
+                <span class="frame12-text095"><span>RP. 4.000</span></span>
+                <div class="frame12-frame1605">
+                  <span class="frame12-text097"><span>Beli</span></span>
+                  <img
+                    src="public/external/backpack41i302-l8xe.svg"
+                    alt="backpack41I302"
+                    class="frame12-backpack4105"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame12-katalog06">
+            <img
+              src="public/external/rectangle10i302-z04c-300h.png"
+              alt="Rectangle10I302"
+              class="frame12-rectangle1006"
+            />
+            <div class="frame12-frame2006">
+              <div class="frame12-frame1906">
+                <div class="frame12-frame1806">
+                  <span class="frame12-text099"><span>snack</span></span>
+                  <span class="frame12-text101"><span>Soyjoy</span></span>
+                </div>
+                <span class="frame12-text103">
+                  <span>
+                    varian baru strawberry dengan kalori lebih rendah dan
+                    protwin lebih banyak
+                  </span>
+                </span>
+              </div>
+              <div class="frame12-frame1706">
+                <span class="frame12-text105"><span>RP. 8.500</span></span>
+                <div class="frame12-frame1606">
+                  <span class="frame12-text107"><span>Beli</span></span>
+                  <img
+                    src="public/external/backpack41i302-u9tkm.svg"
+                    alt="backpack41I302"
+                    class="frame12-backpack4106"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame12-katalog07">
+            <img
+              src="public/external/rectangle10i302-1h4p-300h.png"
+              alt="Rectangle10I302"
+              class="frame12-rectangle1007"
+            />
+            <div class="frame12-frame2007">
+              <div class="frame12-frame1907">
+                <div class="frame12-frame1807">
+                  <span class="frame12-text109"><span>snack</span></span>
+                  <span class="frame12-text111">
+                    <span>fruit tea cocopandan</span>
+                  </span>
+                </div>
+                <span class="frame12-text113">
+                  <span>
+                    Denga natadecoco 350ml, fruitea nata de coco, fruit tea
+                    cocopandan
+                  </span>
+                </span>
+              </div>
+              <div class="frame12-frame1707">
+                <span class="frame12-text115"><span>RP. 3.000</span></span>
+                <div class="frame12-frame1607">
+                  <span class="frame12-text117"><span>Beli</span></span>
+                  <img
+                    src="public/external/backpack41i302-669.svg"
+                    alt="backpack41I302"
+                    class="frame12-backpack4107"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame12-katalog08">
+            <img
+              src="public/external/rectangle10i411-f3xs-300h.png"
+              alt="Rectangle10I411"
+              class="frame12-rectangle1008"
+            />
+            <div class="frame12-frame2008">
+              <div class="frame12-frame1908">
+                <div class="frame12-frame1808">
+                  <span class="frame12-text119"><span>elektronik</span></span>
+                  <span class="frame12-text121"><span>Kipas angin</span></span>
+                </div>
+                <span class="frame12-text123">
+                  <span>
+                    kipas angin kosmos wadesta nempel di dinding nempel di
+                    lantai nempel di thailand
+                  </span>
+                </span>
+              </div>
+              <div class="frame12-frame1708">
+                <span class="frame12-text125"><span>RP. 265.000</span></span>
+                <div class="frame12-frame1608">
+                  <span class="frame12-text127"><span>Beli</span></span>
+                  <img
+                    src="public/external/backpack41i411-uc6q.svg"
+                    alt="backpack41I411"
+                    class="frame12-backpack4108"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame12-katalog09">
+            <img
+              src="public/external/rectangle10i411-8ojp-300h.png"
+              alt="Rectangle10I411"
+              class="frame12-rectangle1009"
+            />
+            <div class="frame12-frame2009">
+              <div class="frame12-frame1909">
+                <div class="frame12-frame1809">
+                  <span class="frame12-text129"><span>elektronik</span></span>
+                  <span class="frame12-text131"><span>Mesin cuci</span></span>
+                </div>
+                <span class="frame12-text133">
+                  <span>
+                    baru dengan daya wat lebih kecil dan lebih canggih nikmati
+                    waktu laundry mu...
+                  </span>
+                </span>
+              </div>
+              <div class="frame12-frame1709">
+                <span class="frame12-text135"><span>RP. 25.000.000</span></span>
+                <div class="frame12-frame1609">
+                  <span class="frame12-text137"><span>Beli</span></span>
+                  <img
+                    src="public/external/backpack41i411-gb8.svg"
+                    alt="backpack41I411"
+                    class="frame12-backpack4109"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame12-katalog10">
+            <img
+              src="public/external/rectangle10i411-e98-300h.png"
+              alt="Rectangle10I411"
+              class="frame12-rectangle1010"
+            />
+            <div class="frame12-frame2010">
+              <div class="frame12-frame1910">
+                <div class="frame12-frame1810">
+                  <span class="frame12-text139"><span>elektronik</span></span>
+                  <span class="frame12-text141"><span>laptop</span></span>
+                </div>
+                <span class="frame12-text143">
+                  <span>
+                    spek gaming lebih kuat dan lebih hemat battery, denga ram 8
+                    gb dan intel core i3
+                  </span>
+                </span>
+              </div>
+              <div class="frame12-frame1710">
+                <span class="frame12-text145"><span>RP. 2.500.000</span></span>
+                <div class="frame12-frame1610">
+                  <span class="frame12-text147"><span>Beli</span></span>
+                  <img
+                    src="public/external/backpack41i411-kvfe.svg"
+                    alt="backpack41I411"
+                    class="frame12-backpack4110"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame12-katalog11">
+            <img
+              src="public/external/rectangle10i411-oc5i-300h.png"
+              alt="Rectangle10I411"
+              class="frame12-rectangle1011"
+            />
+            <div class="frame12-frame2011">
+              <div class="frame12-frame1911">
+                <div class="frame12-frame1811">
+                  <span class="frame12-text149"><span>elektronik</span></span>
+                  <span class="frame12-text151"><span>Product Name</span></span>
+                </div>
+                <span class="frame12-text153">
+                  <span>
+                    dengan lebih ramah lingkungan, wat leih kecil dan lebih digi
+                  </span>
+                </span>
+              </div>
+              <div class="frame12-frame1711">
+                <span class="frame12-text155"><span>RP. 2.759.000</span></span>
+                <div class="frame12-frame1611">
+                  <span class="frame12-text157"><span>Beli</span></span>
+                  <img
+                    src="public/external/backpack41i411-obfn.svg"
+                    alt="backpack41I411"
+                    class="frame12-backpack4111"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame12-katalog12">
+            <img
+              src="public/external/rectangle10i411-y4u-300h.png"
+              alt="Rectangle10I411"
+              class="frame12-rectangle1012"
+            />
+            <div class="frame12-frame2012">
+              <div class="frame12-frame1912">
+                <div class="frame12-frame1812">
+                  <span class="frame12-text159">
+                    <span>bahan makanan</span>
+                  </span>
+                  <span class="frame12-text161"><span>Indomie</span></span>
+                </div>
+                <span class="frame12-text163">
+                  <span>
+                    dapatkan tebus murah beli 5 indomie gratis mangkok cantik...
+                  </span>
+                </span>
+              </div>
+              <div class="frame12-frame1712">
+                <span class="frame12-text165"><span>RP. 2.500</span></span>
+                <div class="frame12-frame1612">
+                  <span class="frame12-text167"><span>Beli</span></span>
+                  <img
+                    src="public/external/backpack41i411-99tp.svg"
+                    alt="backpack41I411"
+                    class="frame12-backpack4112"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame12-katalog13">
+            <img
+              src="public/external/rectangle10i412-rar-300h.png"
+              alt="Rectangle10I412"
+              class="frame12-rectangle1013"
+            />
+            <div class="frame12-frame2013">
+              <div class="frame12-frame1913">
+                <div class="frame12-frame1813">
+                  <span class="frame12-text169">
+                    <span>bahan makanan</span>
+                  </span>
+                  <span class="frame12-text171">
+                    <span>Teh sariwangi</span>
+                  </span>
+                </div>
+                <span class="frame12-text173">
+                  <span>
+                    nikmati kumpul keluarga dengan harum teh melat, teh celup
+                    bunda sari wangi
+                  </span>
+                </span>
+              </div>
+              <div class="frame12-frame1713">
+                <span class="frame12-text175"><span>RP. 2.000</span></span>
+                <div class="frame12-frame1613">
+                  <span class="frame12-text177"><span>Beli</span></span>
+                  <img
+                    src="public/external/backpack41i412-2zou.svg"
+                    alt="backpack41I412"
+                    class="frame12-backpack4113"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame12-katalog14">
+            <img
+              src="public/external/rectangle10i412-15ia-300h.png"
+              alt="Rectangle10I412"
+              class="frame12-rectangle1014"
+            />
+            <div class="frame12-frame2014">
+              <div class="frame12-frame1914">
+                <div class="frame12-frame1814">
+                  <span class="frame12-text179">
+                    <span>bahan makanan</span>
+                  </span>
+                  <span class="frame12-text181">
+                    <span>Minyak bimoli</span>
+                  </span>
+                </div>
+                <span class="frame12-text183">
+                  <span>
+                    masak maska tumis tumis bimoliii, nikmati makanan dengan
+                    minyak sehat...
+                  </span>
+                </span>
+              </div>
+              <div class="frame12-frame1714">
+                <span class="frame12-text185"><span>RP. 16.000</span></span>
+                <div class="frame12-frame1614">
+                  <span class="frame12-text187"><span>Beli</span></span>
+                  <img
+                    src="public/external/backpack41i412-m1u.svg"
+                    alt="backpack41I412"
+                    class="frame12-backpack4114"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame12-katalog15">
+            <img
+              src="public/external/rectangle10i412-oz1e-300h.png"
+              alt="Rectangle10I412"
+              class="frame12-rectangle1015"
+            />
+            <div class="frame12-frame2015">
+              <div class="frame12-frame1915">
+                <div class="frame12-frame1815">
+                  <span class="frame12-text189"><span>elektronik</span></span>
+                  <span class="frame12-text191"><span>Setrika</span></span>
+                </div>
+                <span class="frame12-text193">
+                  <span>
+                    pansa lebih stabil, ;ebih kecil watnya, gosok baju jadilebih
+                    mudah cosmos strika
+                  </span>
+                </span>
+              </div>
+              <div class="frame12-frame1715">
+                <span class="frame12-text195"><span>RP. 205.000</span></span>
+                <div class="frame12-frame1615">
+                  <span class="frame12-text197"><span>Beli</span></span>
+                  <img
+                    src="public/external/backpack41i412-hfj.svg"
+                    alt="backpack41I412"
+                    class="frame12-backpack4115"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame12-group6">
+            <img
+              src="public/external/shop11033-mo4p.svg"
+              alt="shop11033"
+              class="frame12-shop1"
+            />
+            <img
+              src="public/external/bagplus11033-sqnk.svg"
+              alt="bagplus11033"
+              class="frame12-bagplus1"
+            />
+            <span class="frame12-text199">
+              <span>KUNJUNGI OFFLINE STORE KAMI</span>
+            </span>
+            <span class="frame12-text201"><span>Hubungi kami</span></span>
+            <span class="frame12-text203">
+              <span>temukan dan dapatkan lebih bayak barang</span>
+            </span>
+            <span class="frame12-text205"><span>0896-8488-2345</span></span>
+            <span class="frame12-text207"><span>pezatstore</span></span>
+            <span class="frame12-text209"><span>pezatstore</span></span>
+            <span class="frame12-text211">
+              <span>Jl. Golf No.KM 0.5 16918 Ciriung Jawa Barat</span>
+            </span>
+            <img
+              src="public/external/rectangle151033-tdbb-400h.png"
+              alt="Rectangle151033"
+              class="frame12-rectangle15"
+            />
+            <img
+              src="public/external/whatsapp11033-b5ex.svg"
+              alt="whatsapp11033"
+              class="frame12-whatsapp1"
+            />
+            <img
+              src="public/external/instagram11033-w6or.svg"
+              alt="instagram11033"
+              class="frame12-instagram1"
+            />
+          </div>
+          <img
+            src="public/external/rectangle161033-8y49-400h.png"
+            alt="Rectangle161033"
+            class="frame12-rectangle16"
+          />
+          <span class="frame12-text213"><span>tentang kami</span></span>
+          <div class="frame12-component7">
+            <img
+              src="public/external/person11033-z0hp.svg"
+              alt="person11033"
+              class="frame12-person1"
+            />
+            <span class="frame12-text215"><span>nurfajar danis</span></span>
+            <span class="frame12-text217">
+              <span>designer, programer, material resource</span>
+            </span>
+          </div>
+          <div class="frame12-component71">
+            <img
+              src="public/external/person1i103-xrh.svg"
+              alt="person1I103"
+              class="frame12-person11"
+            />
+            <span class="frame12-text219"><span>iyasya nainata</span></span>
+            <span class="frame12-text221"><span>material resource</span></span>
+          </div>
+          <div class="frame12-component8">
+            <img
+              src="public/external/person1i103-rcws.svg"
+              alt="person1I103"
+              class="frame12-person12"
+            />
+            <span class="frame12-text223"><span>salsabila syrath</span></span>
+            <span class="frame12-text225"><span>material resource</span></span>
+          </div>
+          <div class="frame12-component10">
+            <img
+              src="public/external/person1i103-eeue.svg"
+              alt="person1I103"
+              class="frame12-person13"
+            />
+            <span class="frame12-text227"><span>fatikah farah</span></span>
+            <span class="frame12-text229"><span>material resource</span></span>
+          </div>
+          <div class="frame12-component11">
+            <img
+              src="public/external/person1i103-m068.svg"
+              alt="person1I103"
+              class="frame12-person14"
+            />
+            <span class="frame12-text231"><span>desti isna</span></span>
+            <span class="frame12-text233"><span>material resource</span></span>
+          </div>
+          <div class="frame12-component9">
+            <img
+              src="public/external/person1i103-3dv.svg"
+              alt="person1I103"
+              class="frame12-person15"
+            />
+            <span class="frame12-text235"><span>ananda salsabila</span></span>
+            <span class="frame12-text237"><span>material resource</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
